@@ -1,0 +1,27 @@
+<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>dbg</Title>
+    <Author>Igor Klafke</Author>
+    <Shortcut>dbg</Shortcut>
+    <Description>Code snippet for an debug alert function call</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+      <SnippetType>SurroundsWith</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>selected1</ID>
+        <ToolTip>Message</ToolTip>
+        <Default>1</Default>
+      </Literal>
+      <Literal>
+        <ID>selected2</ID>
+        <ToolTip>Variable</ToolTip>
+        <Default>varible</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="JavaScript"><![CDATA[dbg('$selected1$', $selected2$);$end$]]></Code>
+  </Snippet>
+</CodeSnippet>
